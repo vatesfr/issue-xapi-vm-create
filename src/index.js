@@ -42,10 +42,10 @@ execPromise(async args => {
     HVM_boot_params: { orders: 'cdn' },
     HVM_boot_policy: 'BIOS order',
     is_a_template: false,
-    memory_dynamic_max: 4294967296,
-    memory_dynamic_min: 4294967296,
-    memory_static_max: 4294967296,
-    memory_static_min: 134217728,
+    memory_dynamic_max: String(4294967296),
+    memory_dynamic_min: String(4294967296),
+    memory_static_max: String(4294967296),
+    memory_static_min: String(134217728),
     other_config: {},
     PCI_bus: '',
     platform: {},
@@ -56,9 +56,9 @@ execPromise(async args => {
     PV_legacy_args: '',
     PV_ramdisk: '',
     recommendations: '',
-    user_version: 1,
-    VCPUs_at_startup: 1,
-    VCPUs_max: 1,
+    user_version: String(1),
+    VCPUs_at_startup: String(1),
+    VCPUs_max: String(1),
     VCPUs_params: {}
   })
   console.log('VM successfully created')
