@@ -34,7 +34,7 @@
     "babel-cli": "^6.16.0",
     "babel-eslint": "^7.0.0",
     "babel-plugin-transform-runtime": "^6.15.0",
-    "babel-preset-babili": "^0.0.5",
+    "babel-preset-babili": "^0.0.9",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "cross-env": "^3.1.2",
